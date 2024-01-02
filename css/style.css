@@ -12,8 +12,8 @@
 }
 
 :root {
-    --bg-color: #fdfdfd;
-    --text-color: #333;
+    --bg-color: black;
+    --text-color: white;
     --main-color: #754ef9;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
@@ -25,8 +25,8 @@
 }
 
 .dark-mode {
-    --bg-color: #0b061f;
-    --text-color: #fdfdfd;
+    --bg-color:white;
+    --text-color: black;
     --shadow-color: rgba(0, 0, 0, .7);
 }
 
