@@ -943,6 +943,12 @@ span {
         font-size: 4.5rem;
     }
 }
+@media screen and (max-width: 768px) {
+    .portfolio-layer {
+      font-size: 14px; /* Adjust the font size as needed */
+      padding: 10px; /* Adjust the padding as needed */
+    }
+  }
 img {
     border-radius: 20px;
 }
