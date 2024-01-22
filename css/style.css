@@ -392,7 +392,7 @@ span {
 }
 
 .portfolio .portfolio-container {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
@@ -401,6 +401,8 @@ span {
 .portfolio-container .portfolio-box {
     position: relative;
     display: flex;
+    flex: 1; /* Make each portfolio box take up equal space */
+    margin: 0 10px; /* Add margin between the boxes for spacing */
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
     overflow: hidden;
@@ -439,11 +441,15 @@ span {
 
 .portfolio-layer h4 {
     font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 .portfolio-layer p {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
+    color: black;
+    font-weight: bold;
 }
 
 .portfolio-layer a {
