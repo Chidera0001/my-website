@@ -409,7 +409,6 @@ span {
 }
 
 .portfolio-box img {
-    display: inline-block;
     width: 100%;
     transition: .5s ease;
 }
@@ -948,6 +947,15 @@ span {
     .portfolio-layer {
       font-size: 14px; /* Adjust the font size as needed */
       padding: 10px; /* Adjust the padding as needed */
+    }
+    .portfolio .portfolio-container {
+        display: block; /* Change to a block layout for smaller screens */
+    }
+
+    .portfolio-container .portfolio-box {
+        flex: none; /* Remove the flex property to make each box take up its own width */
+        width: 100%; /* Make each portfolio box take up the full width */
+        margin: 0 0 2rem; /* Adjust margin for spacing between boxes */
     }
   }
 img {
