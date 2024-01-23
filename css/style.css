@@ -405,7 +405,6 @@ span {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 30rem;; /* Make each portfolio box take up equal space */
-    padding: 3rem 2rem 4rem;
     margin: 0 10px; /* Add margin between the boxes for spacing */
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
