@@ -403,6 +403,7 @@ span {
 .portfolio-container .portfolio-box {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     flex: 1; /* Make each portfolio box take up equal space */
     margin: 0 10px; /* Add margin between the boxes for spacing */
     border-radius: 2rem;
