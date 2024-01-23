@@ -641,14 +641,6 @@ span {
     .home-img img {
         right: 0;
     }
-    .portfolio .portfolio-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2.5rem;
-    }
 }
 
 @media (max-width: 1100px) {
@@ -658,14 +650,6 @@ span {
 
     .home-img img {
         max-width: 420px;
-    }
-    .portfolio .portfolio-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2.5rem;
     }
 }
 
@@ -688,14 +672,6 @@ span {
 
     .home-img img {
         max-width: 400px;
-    }
-    .portfolio .portfolio-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2.5rem;
     }
 }
 
@@ -728,14 +704,6 @@ span {
 
     .footer {
         padding: 2rem 3%;
-    }
-    .portfolio .portfolio-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
     }
 }
 
