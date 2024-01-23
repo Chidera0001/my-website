@@ -393,6 +393,7 @@ span {
 
 .portfolio .portfolio-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
@@ -411,6 +412,8 @@ span {
 }
 
 .portfolio-box img {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     transition: .5s ease;
 }
