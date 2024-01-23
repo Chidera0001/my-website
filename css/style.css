@@ -943,12 +943,22 @@ span {
         font-size: 4.5rem;
     }
 }
-@media screen and (max-width: 768px) {
-    .portfolio-layer {
-      font-size: 14px; /* Adjust the font size as needed */
-      padding: 10px; /* Adjust the padding as needed */
+@media (max-width: 768px) {
+    .portfolio .portfolio-container {
+        grid-template-columns: 1fr; /* Change to a single column layout */
+        gap: 1rem; /* Add a small gap between the images */
     }
-  }
-img {
-    border-radius: 20px;
+
+    .portfolio-container .portfolio-box {
+        margin: 0; /* Remove the margin between the boxes */
+    }
+
+    .portfolio-box img {
+        width: 100%; /* Make the images take up the full width of the container */
+        border-radius: 20px; /* Apply border-radius to the images */
+    }
+
+    .portfolio-box .portfolio-layer {
+        padding: 1rem; /* Adjust padding for better readability */
+    }
 }
