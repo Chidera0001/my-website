@@ -392,10 +392,9 @@ span {
 }
 
 .portfolio .portfolio-container {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
