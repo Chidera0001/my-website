@@ -630,7 +630,6 @@ span {
     html {
         font-size: 55%;
     }
-
     .home .profession-container .profession-box {
         right: -10%;
     }
@@ -642,6 +641,14 @@ span {
     .home-img img {
         right: 0;
     }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -651,6 +658,14 @@ span {
 
     .home-img img {
         max-width: 420px;
+    }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
     }
 }
 
@@ -673,6 +688,14 @@ span {
 
     .home-img img {
         max-width: 400px;
+    }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
     }
 }
 
@@ -706,6 +729,14 @@ span {
     .footer {
         padding: 2rem 3%;
     }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
 }
 
 @media (max-width: 896px) {
@@ -720,17 +751,41 @@ span {
     .home .profession-container .overlay {
         right: -43%;
     }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
 }
 
 @media (max-width: 879px) {
     .portfolio .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
 }
 
 @media (max-width: 780px) {
     .navbar a:nth-child(2) {
         color: var(--white-color);
+    }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
     }
 }
 
@@ -883,11 +938,27 @@ span {
     .testimonial-box .swiper-button-prev {
         display: none;
     }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
 }
 
 @media (max-width: 580px) {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
+    }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
     }
 }
 
@@ -932,11 +1003,27 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
 }
 
 @media (max-width: 365px) {
     .about-img img {
         width: 90vw;
+    }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
     }
 }
 
@@ -944,13 +1031,29 @@ span {
     .home-content h1 {
         font-size: 4.5rem;
     }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
 }
 @media screen and (max-width: 768px) {
     .portfolio-layer {
       font-size: 14px; /* Adjust the font size as needed */
       padding: 10px; /* Adjust the padding as needed */
     }
-  }
-img {
-    border-radius: 20px;
+    img {
+        border-radius: 20px;
+    }
+    .portfolio .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
 }
