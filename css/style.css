@@ -943,9 +943,19 @@ span {
         font-size: 4.5rem;
     }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .portfolio-layer {
+      font-size: 14px; /* Adjust the font size as needed */
+      padding: 10px; /* Adjust the padding as needed */
+    }
+  }
+img {
+    border-radius: 20px;
+}
+@media (min-width: 579px) {
     .portfolio .portfolio-container {
-        grid-template-columns: 1fr; /* Change to a single column layout */
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax values as needed */
         gap: 1rem; /* Add a small gap between the images */
     }
 
@@ -954,7 +964,7 @@ span {
     }
 
     .portfolio-box img {
-        width: 100%; /* Make the images take up the full width of the container */
+        width: 100%; /* Make the images take up the full width of each container */
         border-radius: 20px; /* Apply border-radius to the images */
     }
 
