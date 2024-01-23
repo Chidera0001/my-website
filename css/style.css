@@ -404,7 +404,7 @@ span {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    flex: 1; /* Make each portfolio box take up equal space */
+    flex: 1 1 30rem;; /* Make each portfolio box take up equal space */
     margin: 0 10px; /* Add margin between the boxes for spacing */
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
@@ -412,8 +412,6 @@ span {
 }
 
 .portfolio-box img {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     transition: .5s ease;
 }
