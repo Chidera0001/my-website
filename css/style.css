@@ -394,7 +394,7 @@ span {
 .portfolio .portfolio-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
@@ -673,6 +673,19 @@ span {
 
     .home-img img {
         max-width: 400px;
+    }
+}
+@media (min-width: 956px){
+    .portfolio-container .portfolio-box {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: calc(33.333% - 20px); /* Prevent excessive stretching */
+        flex: 1 1 30rem;; /* Make each portfolio box take up equal space */
+        margin: 0 10px; /* Add margin between the boxes for spacing */
+        border-radius: 2rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+        overflow: hidden;
     }
 }
 
